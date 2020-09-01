@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #1e1f24 ;
+    --secondary-color: #ff9365;
+    --white:#ffffff;
+}
+body{
+    background-color: var(--primary-color);
+    color:var(--white);
+    font-family:  'Oswald', sans-serif;;
+    font-weight: 200 !important;
+    letter-spacing: .1rem;
+}
+
+h1,h2{
+    font-weight: 700 !important;
+}
+#hero{
+    position: relative;
+    
+
+}
+
+.bg.dark{
+    background-color: var(--primary-color);
+
+}
+
+.logo{
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.narbar{
+    min-height: 80px;
+}
+
+.nav-link{
+    color: rgba(256, 256, 256,.2);
+}
+
+.contet{
+    margin-top: screm;
+    padding: 0 4rem;
+}
+
+.left-border{
+    border-left: 7px solid  rgba(256, 256, 256,.2);;
+}
+
+.lead{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.carousel-inner{
+    max-height: 100vh;
+}
+
+img{
+    max-height: 100vh;
+}
